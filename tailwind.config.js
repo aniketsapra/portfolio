@@ -7,11 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily:{
+        'poiretfont':['Poiret One','sans-serif'],
+        'monsfont':['Montserrat','sans-serif'],
       },
+      colors: {
+        'customdarkgreen':'#1A4D2E',
+        'customgreen':'#4F6F52',
+        'customoffwhite':'#E8DFCA',
+        'customwhite':'#F5EFE6',
+      },
+      backgroundImage: {
+        'hero-texture' :'url("https://www.transparenttextures.com/patterns/flowers.png")',
+        
+      }
     },
   },
   plugins: [],

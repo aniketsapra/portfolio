@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,12 +24,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #E8DFCA;
+  background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+
 }
 
 @layer utilities {
@@ -31,3 +34,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.line {
+  border-top: 0.5px solid #6e6e6e;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
