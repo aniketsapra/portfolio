@@ -62,7 +62,7 @@ const AboutSection = () => {
         </div>
         <div className="mt-4">
         <a href="/assets/aniketsapraresume.pdf" download="aniketsapraresume.pdf" target="_blank">
-        <button className="p-7 bg-customdarkgreen w-full rounded-full text-xl text-customwhite hover:bg-customgreen transition duration-300">Download Resume</button></a>
+        <button className="p-4 bg-customdarkgreen w-full rounded-full text-lg md:text-xl  text-customwhite hover:bg-customgreen transition duration-300">Download Resume</button></a>
         </div>
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
