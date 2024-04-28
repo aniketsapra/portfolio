@@ -56,8 +56,14 @@ const AboutSection = () => {
   return (
     <section className="font-monsfont min-h-screen text-customdarkgreen" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <div className="flex flex-col ">
         <div>
           <Image src={AboutImage} />
+        </div>
+        <div className="mt-4">
+        <a href="/assets/aniketsapraresume.pdf" download="aniketsapraresume.pdf" target="_blank">
+        <button className="p-7 bg-customdarkgreen w-full rounded-full text-xl text-customwhite hover:bg-customgreen transition duration-300">Download Resume</button></a>
+        </div>
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-customgreen mb-4">About Me</h2>
