@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -18,9 +17,7 @@ export default function Home() {
       <ProjectsSection />
       <EmailSection />
     </div>
-    <div>
       <Footer />
-    </div>
     </main>
   );
 }

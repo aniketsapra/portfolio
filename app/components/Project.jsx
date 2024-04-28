@@ -42,12 +42,6 @@ const ProjectsSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
-
-  const cardVariants = {
-    initial: { y: 50, opacity: 0 },
-    animate: { y: 0, opacity: 1 },
-  };
-
   return (
     <section id="projects">
       <h2 className="text-center text-5xl font-poiretfont font-extrabold text-customgreen mt-4 mb-8 md:mb-12">

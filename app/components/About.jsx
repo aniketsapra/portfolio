@@ -10,12 +10,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
         <li>Next.js</li>
-        <li>TailwindCSS</li>
-        <li>JavaScript</li>
         <li>React.js</li>
+        <li>Node.js</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>TailwindCSS</li>
       </ul>
     ),
   },
@@ -53,14 +54,14 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="font-monsfont text-customdarkgreen" id="about">
+    <section className="font-monsfont min-h-screen text-customdarkgreen" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div>
-          <Image src={AboutImage}/>
+          <Image src={AboutImage} />
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-customgreen mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-md lg:text-lg">
             I am a Frontend web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, Next.js, React.js, Node.js, Express, HTML, CSS, and TailwindCSS. I am a quick learner and I am always
